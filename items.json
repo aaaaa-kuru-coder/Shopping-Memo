@@ -1,33 +1,60 @@
 {
   "milk": {
     "alias": "牛乳",
-    "iconfile": null,
+    "iconfile": "milk.png",
     "quick": true,
     "order": 10
   },
   "banana": {
     "alias": "バナナ",
-    "iconfile": null,
+    "iconfile": "banana.png",
     "quick": true,
-    "order": 20
+    "order": 11
   },
   "egg": {
     "alias": "卵",
     "iconfile": "egg.png",
     "quick": true,
-    "order": 30
+    "order": 12
   },
+
+  "olive": {
+    "alias": "オリーブオイル",
+    "iconfile": "olive.png",
+    "quick": true,
+    "order": 13
+  },
+  "garlic": {
+    "alias": "にんにく",
+    "iconfile": "garlic.png",
+    "quick": true,
+    "order": 14
+  },
+  "chilipepper": {
+    "alias": "唐辛子",
+    "iconfile": "chilipepper.png",
+    "quick": true,
+    "order": 15
+  },
+  "nuts": {
+    "alias": "ナッツ",
+    "iconfile": "nuts.png",
+    "quick": true,
+    "order": 16
+  },
+
+
   "bread": {
     "alias": "食パン",
     "iconfile": null,
     "quick": false,
-    "order": 40
+    "order": 100
   },
   "yogurt": {
     "alias": "ヨーグルト",
     "iconfile": null,
     "quick": false,
-    "order": 50
+    "order": 110
   },
   "natto": {
     "alias": "納豆",
