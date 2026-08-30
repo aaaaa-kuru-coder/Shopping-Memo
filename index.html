@@ -14,33 +14,71 @@
 </head>
 <body>
   <main class="wrap">
-    <h1>🛒 買い物メモ</h1>
-    <section class="card">
-      <label for="presetButton">よく買う物</label>
-      <div class="preset-picker">
-        <button id="presetButton" class="preset-button" type="button" aria-haspopup="listbox" aria-expanded="false">
-          <span id="presetButtonLabel" class="preset-button-label">選択してください</span><span class="chevron">▼</span>
-        </button>
-        <div id="presetMenu" class="preset-menu hidden" role="listbox" aria-label="よく買う物">
-          <p class="catalog-status">品目データを読み込み中…</p>
+    <header class="app-header">
+      <h1>🛒 買い物メモ</h1>
+      <p class="header-sub">候補からでも、手入力でも、すばやく追加</p>
+    </header>
+
+    <section class="card add-card" aria-labelledby="addHeading">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">ADD ITEM</p>
+          <h2 id="addHeading">買うものを追加</h2>
         </div>
       </div>
-      <button id="addPreset" class="primary add-preset-button" type="button">追加</button>
-      <div id="quickItems" class="quick" aria-label="クイック追加"></div>
-      <div class="divider"><span>または</span></div>
-      <label for="manual">その他の買い物</label>
-      <form id="manualForm" class="row"><input id="manual" maxlength="80" autocomplete="off" placeholder="例：オリーブオイル"><button class="primary" type="submit">追加</button></form>
+
+      <form id="addForm" class="add-row" autocomplete="off">
+        <input
+          id="itemInput"
+          maxlength="80"
+          autocomplete="off"
+          inputmode="text"
+          placeholder="例：オリーブ、牛乳、ティッシュ"
+          aria-label="買うもの"
+        >
+        <button class="primary add-button" type="submit">追加</button>
+      </form>
+
+      <p id="suggestionHint" class="suggestion-hint">
+        よく使う候補。入力すると一致する候補が先頭に移動します。
+      </p>
+      <div id="suggestions" class="suggestions" aria-label="品目候補">
+        <p class="catalog-status">品目データを読み込み中…</p>
+      </div>
     </section>
-    <section class="card">
-      <div class="head"><div><h2>買うもの</h2><p class="sub">買えたら ✓ で即削除</p></div><span id="count" class="badge">0件</span></div>
-      <p id="empty" class="empty">いま買うものはありません。</p><ul id="list"></ul>
+
+    <section class="card memo-card" aria-labelledby="memoHeading">
+      <div class="head">
+        <div>
+          <p class="section-kicker">SHOPPING NOTE</p>
+          <h2 id="memoHeading">買うもの</h2>
+          <p class="sub">－ / ＋ で個数調整、✓ でその品目を完了</p>
+        </div>
+        <span id="count" class="badge">0品目</span>
+      </div>
+
+      <div class="notebook">
+        <p id="empty" class="empty">いま買うものはありません。</p>
+        <ul id="list" class="shopping-list"></ul>
+      </div>
     </section>
-    <section class="card">
-      <h2>バックアップ</h2><p class="sub">端末変更やブラウザデータ削除に備えて、必要なときだけ保存できます。</p>
-      <div class="toolbar"><button id="exportBtn" class="secondary" type="button">JSONで保存</button><button id="importBtn" class="secondary" type="button">JSONから復元</button><button id="clearBtn" class="secondary" type="button">全削除</button></div>
-      <input id="importInput" type="file" accept="application/json,.json"><p class="note">このアプリは外部通信を行いません。入力した買い物データは、このブラウザの端末内ストレージだけに保存されます。</p>
+
+    <section class="card backup-card">
+      <h2>バックアップ</h2>
+      <p class="sub">端末変更やブラウザデータ削除に備えて、必要なときだけ保存できます。</p>
+      <div class="toolbar">
+        <button id="exportBtn" class="secondary" type="button">JSONで保存</button>
+        <button id="importBtn" class="secondary" type="button">JSONから復元</button>
+        <button id="clearBtn" class="secondary danger-lite" type="button">全削除</button>
+      </div>
+      <input id="importInput" type="file" accept="application/json,.json">
+      <p class="note">
+        買い物データはブラウザの端末内ストレージに保存され、GitHubへ送信されません。
+        items.json とアプリ本体のみGitHub Pagesから読み込みます。
+      </p>
     </section>
   </main>
+
   <script src="./app.js"></script>
 </body>
 </html>
