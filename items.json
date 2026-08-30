@@ -44,6 +44,100 @@
   },
 
 
+
+  "tea": {
+    "alias": "紅茶",
+    "iconfile": null,
+    "quick": true,
+    "order": 17
+  },
+  "soybean-flour": {
+    "alias": "きな粉",
+    "iconfile": null,
+    "quick": true,
+    "order": 18
+  },
+  "sugar": {
+    "alias": "砂糖",
+    "iconfile": null, 
+    "quick": true,
+    "order": 19
+  },
+  "tomato-can": {
+    "alias": "トマト缶",
+    "iconfile": null, 
+    "quick": true,
+    "order": 20
+  },
+  "consomme": {
+    "alias": "コンソメ",
+    "iconfile": null, 
+    "quick": true,
+    "order": 21
+  },
+  "glutamate": {
+    "alias": "味の素",
+    "iconfile": null, 
+    "quick": true,
+    "order": 22
+  },
+  "sauce": {
+    "alias": "ソース",
+    "iconfile": null, 
+    "quick": true,
+    "order": 23
+  },
+  "dashi": {
+    "alias": "白だし",
+    "iconfile": null, 
+    "quick": true,
+    "order": 24
+  },
+  "chilipepper-powder": {
+    "alias": "一味唐辛子",
+    "iconfile": null, 
+    "quick": true,
+    "order": 25
+  },
+  "basil": {
+    "alias": "バジル",
+    "iconfile": null, 
+    "quick": true,
+    "order": 26
+  },
+  "pepper": {
+    "alias": "胡椒",
+    "iconfile": null, 
+    "quick": true,
+    "order": 27
+  },
+  "cocoa": {
+    "alias": "ココア",
+    "iconfile": null, 
+    "quick": true,
+    "order": 28
+  },
+  "coffee": {
+    "alias": "コーヒー",
+    "iconfile": null, 
+    "quick": true,
+    "order": 29
+  },
+  "tomato-juice": {
+    "alias": "トマトジュース",
+    "iconfile": null, 
+    "quick": true,
+    "order": 30
+  },
+  "mackerel-can": {
+    "alias": "鯖缶",
+    "iconfile": null, 
+    "quick": true,
+    "order": 31
+  },
+
+
+
   "bread": {
     "alias": "食パン",
     "iconfile": null,
