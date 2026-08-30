@@ -1,0 +1,74 @@
+{
+  "milk": {
+    "alias": "牛乳",
+    "iconfile": null,
+    "quick": true,
+    "order": 10
+  },
+  "banana": {
+    "alias": "バナナ",
+    "iconfile": null,
+    "quick": true,
+    "order": 20
+  },
+  "egg": {
+    "alias": "卵",
+    "iconfile": "egg.png",
+    "quick": true,
+    "order": 30
+  },
+  "bread": {
+    "alias": "食パン",
+    "iconfile": null,
+    "quick": false,
+    "order": 40
+  },
+  "yogurt": {
+    "alias": "ヨーグルト",
+    "iconfile": null,
+    "quick": false,
+    "order": 50
+  },
+  "natto": {
+    "alias": "納豆",
+    "iconfile": null,
+    "quick": true,
+    "order": 60
+  },
+  "tofu": {
+    "alias": "豆腐",
+    "iconfile": null,
+    "quick": false,
+    "order": 70
+  },
+  "cabbage": {
+    "alias": "キャベツ",
+    "iconfile": null,
+    "quick": false,
+    "order": 80
+  },
+  "onion": {
+    "alias": "玉ねぎ",
+    "iconfile": null,
+    "quick": false,
+    "order": 90
+  },
+  "potato": {
+    "alias": "じゃがいも",
+    "iconfile": null,
+    "quick": false,
+    "order": 100
+  },
+  "pork": {
+    "alias": "豚肉",
+    "iconfile": null,
+    "quick": false,
+    "order": 110
+  },
+  "chicken": {
+    "alias": "鶏肉",
+    "iconfile": null,
+    "quick": false,
+    "order": 120
+  }
+}

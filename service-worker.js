@@ -1,9 +1,10 @@
-const CACHE_NAME = "shopping-memo-v3";
+const CACHE_NAME = "shopping-memo-v4";
 const APP_FILES = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
+  "./items.json",
   "./manifest.webmanifest",
   "./images/egg.png",
   "./icons/icon-192.png",
@@ -26,6 +27,26 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+
+  const url = new URL(event.request.url);
+
+  // items.json は、オンライン時はGitHub Pages上の最新版を優先。
+  // 失敗時だけキャッシュへフォールバックする。
+  if (url.pathname.endsWith("/items.json")) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (response && response.status === 200) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;

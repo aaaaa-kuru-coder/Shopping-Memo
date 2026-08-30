@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#f4f5f7">
-  <meta name="description" content="端末内だけに保存するシンプルな買い物メモ">
+  <meta name="description" content="品目マスタをJSONで管理できる、端末内保存の買い物メモ">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon-192.png">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
@@ -22,27 +22,11 @@
           <span id="presetButtonLabel" class="preset-button-label">選択してください</span><span class="chevron">▼</span>
         </button>
         <div id="presetMenu" class="preset-menu hidden" role="listbox" aria-label="よく買う物">
-          <button class="preset-option" type="button" data-item="牛乳">牛乳</button>
-          <button class="preset-option" type="button" data-item="バナナ">バナナ</button>
-          <button class="preset-option icon-option" type="button" data-item="卵" data-icon="./images/egg.png"><img src="./images/egg.png" alt="" width="16" height="16">卵</button>
-          <button class="preset-option" type="button" data-item="食パン">食パン</button>
-          <button class="preset-option" type="button" data-item="ヨーグルト">ヨーグルト</button>
-          <button class="preset-option" type="button" data-item="納豆">納豆</button>
-          <button class="preset-option" type="button" data-item="豆腐">豆腐</button>
-          <button class="preset-option" type="button" data-item="キャベツ">キャベツ</button>
-          <button class="preset-option" type="button" data-item="玉ねぎ">玉ねぎ</button>
-          <button class="preset-option" type="button" data-item="じゃがいも">じゃがいも</button>
-          <button class="preset-option" type="button" data-item="豚肉">豚肉</button>
-          <button class="preset-option" type="button" data-item="鶏肉">鶏肉</button>
+          <p class="catalog-status">品目データを読み込み中…</p>
         </div>
       </div>
       <button id="addPreset" class="primary add-preset-button" type="button">追加</button>
-      <div class="quick">
-        <button class="chip" data-item="牛乳" type="button">牛乳</button>
-        <button class="chip" data-item="バナナ" type="button">バナナ</button>
-        <button class="chip chip-icon" data-item="卵" data-icon="./images/egg.png" type="button"><img src="./images/egg.png" alt="" width="16" height="16">卵</button>
-        <button class="chip" data-item="納豆" type="button">納豆</button>
-      </div>
+      <div id="quickItems" class="quick" aria-label="クイック追加"></div>
       <div class="divider"><span>または</span></div>
       <label for="manual">その他の買い物</label>
       <form id="manualForm" class="row"><input id="manual" maxlength="80" autocomplete="off" placeholder="例：オリーブオイル"><button class="primary" type="submit">追加</button></form>
