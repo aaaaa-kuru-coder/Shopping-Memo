@@ -3,193 +3,217 @@
     "alias": "牛乳",
     "iconfile": "milk.png",
     "quick": true,
-    "order": 10
+    "order": 10,
+    "genre": "乳製品・卵"
   },
   "banana": {
     "alias": "バナナ",
     "iconfile": "banana.png",
     "quick": true,
-    "order": 11
+    "order": 11,
+    "genre": "野菜・果物"
   },
   "egg": {
     "alias": "卵",
     "iconfile": "egg.png",
     "quick": true,
-    "order": 12
+    "order": 12,
+    "genre": "乳製品・卵"
   },
-
   "olive": {
     "alias": "オリーブオイル",
     "iconfile": "olive.png",
     "quick": true,
-    "order": 13
+    "order": 13,
+    "genre": "調味料"
   },
   "garlic": {
     "alias": "にんにく",
     "iconfile": "garlic.png",
     "quick": true,
-    "order": 14
+    "order": 14,
+    "genre": "野菜・果物"
   },
   "chilipepper": {
     "alias": "唐辛子",
     "iconfile": "chilipepper.png",
     "quick": true,
-    "order": 15
+    "order": 15,
+    "genre": "野菜・果物"
   },
   "nuts": {
     "alias": "ナッツ",
     "iconfile": "nuts.png",
     "quick": true,
-    "order": 16
+    "order": 16,
+    "genre": "乾物・粉類"
   },
-
-
-
   "tea": {
     "alias": "紅茶",
     "iconfile": null,
     "quick": true,
-    "order": 17
+    "order": 17,
+    "genre": "飲料"
   },
   "soybean-flour": {
     "alias": "きな粉",
     "iconfile": null,
     "quick": true,
-    "order": 18
+    "order": 18,
+    "genre": "乾物・粉類"
   },
   "sugar": {
     "alias": "砂糖",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 19
+    "order": 19,
+    "genre": "乾物・粉類"
   },
   "tomato-can": {
     "alias": "トマト缶",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 20
+    "order": 20,
+    "genre": "缶詰"
   },
   "consomme": {
     "alias": "コンソメ",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 21
+    "order": 21,
+    "genre": "調味料"
   },
   "glutamate": {
     "alias": "味の素",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 22
+    "order": 22,
+    "genre": "調味料"
   },
   "sauce": {
     "alias": "ソース",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 23
+    "order": 23,
+    "genre": "調味料"
   },
   "dashi": {
     "alias": "白だし",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 24
+    "order": 24,
+    "genre": "調味料"
   },
   "chilipepper-powder": {
     "alias": "一味唐辛子",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 25
+    "order": 25,
+    "genre": "調味料"
   },
   "basil": {
     "alias": "バジル",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 26
+    "order": 26,
+    "genre": "調味料"
   },
   "pepper": {
     "alias": "胡椒",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 27
+    "order": 27,
+    "genre": "調味料"
   },
   "cocoa": {
     "alias": "ココア",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 28
+    "order": 28,
+    "genre": "乾物・粉類"
   },
   "coffee": {
     "alias": "コーヒー",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 29
+    "order": 29,
+    "genre": "飲料"
   },
   "tomato-juice": {
     "alias": "トマトジュース",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 30
+    "order": 30,
+    "genre": "飲料"
   },
   "mackerel-can": {
     "alias": "鯖缶",
-    "iconfile": null, 
+    "iconfile": null,
     "quick": true,
-    "order": 31
+    "order": 31,
+    "genre": "缶詰"
   },
-
-
-
   "bread": {
     "alias": "食パン",
     "iconfile": null,
     "quick": false,
-    "order": 100
+    "order": 100,
+    "genre": "主食"
   },
   "yogurt": {
     "alias": "ヨーグルト",
     "iconfile": null,
     "quick": false,
-    "order": 110
+    "order": 110,
+    "genre": "乳製品・卵"
   },
   "natto": {
     "alias": "納豆",
     "iconfile": null,
     "quick": true,
-    "order": 60
+    "order": 60,
+    "genre": "大豆・惣菜"
   },
   "tofu": {
     "alias": "豆腐",
     "iconfile": null,
     "quick": false,
-    "order": 70
+    "order": 70,
+    "genre": "大豆・惣菜"
   },
   "cabbage": {
     "alias": "キャベツ",
     "iconfile": null,
     "quick": false,
-    "order": 80
+    "order": 80,
+    "genre": "野菜・果物"
   },
   "onion": {
     "alias": "玉ねぎ",
     "iconfile": null,
     "quick": false,
-    "order": 90
+    "order": 90,
+    "genre": "野菜・果物"
   },
   "potato": {
     "alias": "じゃがいも",
     "iconfile": null,
     "quick": false,
-    "order": 100
+    "order": 100,
+    "genre": "野菜・果物"
   },
   "pork": {
     "alias": "豚肉",
     "iconfile": null,
     "quick": false,
-    "order": 110
+    "order": 110,
+    "genre": "肉・魚"
   },
   "chicken": {
     "alias": "鶏肉",
     "iconfile": null,
     "quick": false,
-    "order": 120
+    "order": 120,
+    "genre": "肉・魚"
   }
 }
