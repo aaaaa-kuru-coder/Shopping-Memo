@@ -57,14 +57,14 @@
   },
   "soybean-flour": {
     "alias": "きな粉",
-    "iconfile": null,
+    "iconfile": "consomme.png",
     "quick": true,
     "order": 18,
     "genre": "嗜好品"
   },
   "sugar": {
     "alias": "砂糖",
-    "iconfile": null,
+    "iconfile": "sugar.png",
     "quick": true,
     "order": 19,
     "genre": "調味料"
@@ -78,7 +78,7 @@
   },
   "consomme": {
     "alias": "コンソメ",
-    "iconfile": null,
+    "iconfile": "consomme.png",
     "quick": true,
     "order": 21,
     "genre": "調味料"
@@ -106,21 +106,21 @@
   },
   "chilipepper-powder": {
     "alias": "一味唐辛子",
-    "iconfile": null,
+    "iconfile": "chilipepper-powder.png",
     "quick": true,
     "order": 25,
     "genre": "調味料"
   },
   "basil": {
     "alias": "バジル",
-    "iconfile": null,
+    "iconfile": "basil.png",
     "quick": true,
     "order": 26,
     "genre": "調味料"
   },
   "pepper": {
     "alias": "胡椒",
-    "iconfile": null,
+    "iconfile": "pepper.png",
     "quick": true,
     "order": 27,
     "genre": "調味料"
@@ -153,6 +153,31 @@
     "order": 31,
     "genre": "食品"
   },
+  "maccha": {
+    "alias": "抹茶",
+    "iconfile": "maccha.png",
+    "quick": true,
+    "order": 32,
+    "genre": "嗜好品"
+  },
+  "salt": {
+    "alias": "塩",
+    "iconfile": "salt.png",
+    "quick": true,
+    "order": 33,
+    "genre": "調味料"
+  },
+  "pasta": {
+    "alias": "パスタ",
+    "iconfile": "pasta.png",
+    "quick": true,
+    "order": 33,
+    "genre": "食品"
+  },
+
+
+
+
   "bread": {
     "alias": "食パン",
     "iconfile": null,
@@ -174,6 +199,10 @@
     "order": 60,
     "genre": "食品"
   },
+
+
+
+
 
   "tissue": {
     "alias": "ティッシュ",
