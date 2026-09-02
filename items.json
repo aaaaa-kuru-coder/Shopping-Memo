@@ -57,7 +57,7 @@
   },
   "soybean-flour": {
     "alias": "きな粉",
-    "iconfile": "consomme.png",
+    "iconfile": "soybean-flour.png",
     "quick": true,
     "order": 18,
     "genre": "嗜好品"
