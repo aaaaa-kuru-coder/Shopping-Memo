@@ -50,7 +50,7 @@
   },
   "tea": {
     "alias": "紅茶",
-    "iconfile": null,
+    "iconfile": "tea.png",
     "quick": true,
     "order": 17,
     "genre": "嗜好品"
@@ -92,14 +92,14 @@
   },
   "sauce": {
     "alias": "ソース",
-    "iconfile": null,
+    "iconfile": "sauce.png",
     "quick": true,
     "order": 23,
     "genre": "調味料"
   },
   "dashi": {
     "alias": "白だし",
-    "iconfile": null,
+    "iconfile": "dashi.png",
     "quick": true,
     "order": 24,
     "genre": "調味料"
@@ -141,7 +141,7 @@
   },
   "tomato-juice": {
     "alias": "トマトジュース",
-    "iconfile": null,
+    "iconfile": "tomato-juice.png",
     "quick": true,
     "order": 30,
     "genre": "食品"
