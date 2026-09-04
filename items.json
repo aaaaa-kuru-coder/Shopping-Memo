@@ -71,7 +71,7 @@
   },
   "tomato-can": {
     "alias": "トマト缶",
-    "iconfile": null,
+    "iconfile": "tomato-can.png",
     "quick": true,
     "order": 20,
     "genre": "食品"
@@ -127,14 +127,14 @@
   },
   "cocoa": {
     "alias": "ココア",
-    "iconfile": null,
+    "iconfile": "cocoa.png",
     "quick": true,
     "order": 28,
     "genre": "嗜好品"
   },
   "coffee": {
     "alias": "コーヒー",
-    "iconfile": null,
+    "iconfile": "coffee.png",
     "quick": true,
     "order": 29,
     "genre": "嗜好品"
@@ -206,14 +206,14 @@
 
   "tissue": {
     "alias": "ティッシュ",
-    "iconfile": null,
+    "iconfile": "tissue.png",
     "quick": true,
     "order": 201,
     "genre": "日用品"
   },
   "toillet-paper": {
     "alias": "トイレットペーパー",
-    "iconfile": null,
+    "iconfile": "toilet-paper.png",
     "quick": true,
     "order": 202,
     "genre": "日用品"
