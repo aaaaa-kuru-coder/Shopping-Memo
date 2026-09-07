@@ -176,21 +176,21 @@
   },
   "sesameoil": {
     "alias": "ごま油",
-    "iconfile": null,
+    "iconfile": "sesameoil.png",
     "quick": true,
     "order": 34,
     "genre": "調味料"
   },
   "chicken-stock": {
     "alias": "鶏ガラ",
-    "iconfile": null,
+    "iconfile": "chicken-stock.png",
     "quick": true,
     "order": 35,
     "genre": "調味料"
   },
   "soy-sauce": {
     "alias": "醤油",
-    "iconfile": null,
+    "iconfile": "soy-sauce.png",
     "quick": true,
     "order": 36,
     "genre": "調味料"
