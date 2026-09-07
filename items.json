@@ -188,6 +188,27 @@
     "order": 35,
     "genre": "調味料"
   },
+  "soy-sauce": {
+    "alias": "醤油",
+    "iconfile": null,
+    "quick": true,
+    "order": 3,
+    "genre": "調味料"
+  },
+  "liquer": {
+    "alias": "料理酒",
+    "iconfile": null,
+    "quick": true,
+    "order": 37,
+    "genre": "調味料"
+  },
+  "mirin": {
+    "alias": "みりん",
+    "iconfile": null,
+    "quick": true,
+    "order": 38,
+    "genre": "調味料"
+  },
 
 
 
