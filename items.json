@@ -6,8 +6,6 @@
     "order": 10,
     "genre": "食品"
   },
-
-
   "olive": {
     "alias": "オリーブオイル",
     "iconfile": "olive.png",
@@ -47,7 +45,7 @@
     "alias": "鯖缶",
     "iconfile": null,
     "quick": true,
-    "order": 6
+    "order": 6,
     "genre": "食品"
   },
 
@@ -223,7 +221,6 @@
     "order": 38,
     "genre": "調味料"
   },
-
 
 
   "bread": {
