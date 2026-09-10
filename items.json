@@ -6,6 +6,53 @@
     "order": 10,
     "genre": "食品"
   },
+
+
+  "olive": {
+    "alias": "オリーブオイル",
+    "iconfile": "olive.png",
+    "quick": true,
+    "order": 1,
+    "genre": "食品"
+  },
+  "garlic": {
+    "alias": "にんにく",
+    "iconfile": "garlic.png",
+    "quick": true,
+    "order": 2,
+    "genre": "食品"
+  },
+  "chilipepper": {
+    "alias": "唐辛子",
+    "iconfile": "chilipepper.png",
+    "quick": true,
+    "order": 3,
+    "genre": "食品"
+  },
+  "pasta": {
+    "alias": "パスタ",
+    "iconfile": "pasta.png",
+    "quick": true,
+    "order": 4,
+    "genre": "食品"
+  },
+  "tomato-can": {
+    "alias": "トマト缶",
+    "iconfile": "tomato-can.png",
+    "quick": true,
+    "order": 5,
+    "genre": "食品"
+  },
+  "mackerel-can": {
+    "alias": "鯖缶",
+    "iconfile": null,
+    "quick": true,
+    "order": 6
+    "genre": "食品"
+  },
+
+
+
   "banana": {
     "alias": "バナナ",
     "iconfile": "banana.png",
@@ -20,27 +67,7 @@
     "order": 12,
     "genre": "食品"
   },
-  "olive": {
-    "alias": "オリーブオイル",
-    "iconfile": "olive.png",
-    "quick": true,
-    "order": 13,
-    "genre": "食品"
-  },
-  "garlic": {
-    "alias": "にんにく",
-    "iconfile": "garlic.png",
-    "quick": true,
-    "order": 14,
-    "genre": "食品"
-  },
-  "chilipepper": {
-    "alias": "唐辛子",
-    "iconfile": "chilipepper.png",
-    "quick": true,
-    "order": 15,
-    "genre": "食品"
-  },
+
   "nuts": {
     "alias": "ナッツ",
     "iconfile": "nuts.png",
@@ -48,6 +75,9 @@
     "order": 16,
     "genre": "食品"
   },
+
+
+
   "tea": {
     "alias": "紅茶",
     "iconfile": "tea.png",
@@ -69,13 +99,9 @@
     "order": 19,
     "genre": "調味料"
   },
-  "tomato-can": {
-    "alias": "トマト缶",
-    "iconfile": "tomato-can.png",
-    "quick": true,
-    "order": 20,
-    "genre": "食品"
-  },
+
+
+
   "consomme": {
     "alias": "コンソメ",
     "iconfile": "consomme.png",
@@ -146,13 +172,7 @@
     "order": 30,
     "genre": "食品"
   },
-  "mackerel-can": {
-    "alias": "鯖缶",
-    "iconfile": null,
-    "quick": true,
-    "order": 31,
-    "genre": "食品"
-  },
+
   "maccha": {
     "alias": "抹茶",
     "iconfile": "maccha.png",
@@ -167,13 +187,7 @@
     "order": 33,
     "genre": "調味料"
   },
-  "pasta": {
-    "alias": "パスタ",
-    "iconfile": "pasta.png",
-    "quick": true,
-    "order": 33,
-    "genre": "食品"
-  },
+
   "sesameoil": {
     "alias": "ごま油",
     "iconfile": "sesameoil.png",
@@ -197,7 +211,7 @@
   },
   "liquer": {
     "alias": "料理酒",
-    "iconfile": null,
+    "iconfile": "liquer.png",
     "quick": true,
     "order": 37,
     "genre": "調味料"
@@ -254,21 +268,21 @@
   },
   "hand-soap": {
     "alias": "ハンドソープ",
-    "iconfile": null,
+    "iconfile": "hand-soap.png",
     "quick": true,
     "order": 203,
     "genre": "日用品"
   },
   "body-soap": {
     "alias": "ボディソープ",
-    "iconfile": null,
+    "iconfile": "body-soap.png",
     "quick": true,
     "order": 204,
     "genre": "日用品"
   },
   "shampoo": {
     "alias": "シャンプー",
-    "iconfile": null,
+    "iconfile": "shampoo.png",
     "quick": true,
     "order": 205,
     "genre": "日用品"
